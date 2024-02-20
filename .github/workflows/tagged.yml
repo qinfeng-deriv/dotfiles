@@ -1,0 +1,19 @@
+name: Tagged
+run-name: Tagged
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '!**'
+    tags:
+      - 'V[0-9]+_*'
+jobs:
+  build:
+    uses: regentmarkets/github-actions/.github/workflows/build.yml@master
+  test:
+    runs-on: ubuntu-latest
+    run:
+    steps:
+      - name: None of your business
+        run: echo "${{ github.ref_name }}"
+
