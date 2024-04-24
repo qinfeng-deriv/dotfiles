@@ -19,6 +19,7 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'tpope/vim-fugitive'
 " plugin for perl syntax, template toolkit
 Plugin 'vim-perl/vim-perl'
+Plugin 'fatih/vim-go'
 " plugin for javascript syntax
 " Plugin 'pangloss/vim-javascript'
 " plugin for json syntax
