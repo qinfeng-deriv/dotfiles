@@ -164,4 +164,4 @@ if [[ $TERM == "dumb" ]]; then
     export PS1="$ "
 fi
 
-alias vim=/usr/local/bin/vim
+alias vim=/usr/bin/vim
